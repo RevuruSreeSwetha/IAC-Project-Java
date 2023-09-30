@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CAServlet</servlet-name>
+  	<display-name>CAServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.CAServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FormServlet</servlet-name>
+  	<display-name>FormServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.FormServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DashBoardServlet</servlet-name>
+  	<display-name>DashBoardServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.DashBoardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CAServlet</servlet-name>
+  	<url-pattern>/CAServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FormServlet</servlet-name>
+  	<url-pattern>/FormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DashBoardServlet</servlet-name>
+  	<url-pattern>/DashBoardServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
